@@ -36,7 +36,7 @@ Empower your data analysis with interactive visualizations and robust data prepr
 
 ### For the Non-Technical User (The "Easy" Button)
 
-All you need to do is to click [CSV Analyzer]()
+All you need to do is to click [CSV Analyzer](https://csv-analyzer-itiepyx4u5lofkqsmypcnk.streamlit.app/)
 
 ### For the Technical User (The "Under the Hood" Guide)
 
