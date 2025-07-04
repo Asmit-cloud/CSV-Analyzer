@@ -1,6 +1,8 @@
 # CSV Data Analysis Hub
 
 ![CSV_Analyzer Image](Image/Image.jpg)
+<br>
+<br>
 
 * CSV Analyzer is a powerful and user-friendly Streamlit application designed to simplify the process of analyzing and visualizing your CSV data.
 
@@ -48,8 +50,8 @@ To set up the development environment and run the application locally, follow th
 Step 1: *Clone the repository (or download the CSV_Analyzer.py file):*
 
 ```bash
-git clone <PROVIDE_THE_ACTUAL_REPOSITORY_URL>
-cd <PROVIDE_THE_ACTUAL_REPOSITORY_NAME>
+git clone https://github.com/Asmit-cloud/CSV-Analyzer.git
+cd CSV-Analyzer
 ```
 
 (If you downloaded only the CSV_Analyzer.py file, navigate to the directory where you saved it.)
@@ -125,55 +127,55 @@ This section demonstrates how to use the core features of the CSV Analyzer.
 
     A. **Quick Data Overview:**
 
-        * Upload your CSV.
+    * Upload your CSV.
 
-        * Click "Show Preview of the Uploaded File".
+    * Click "Show Preview of the Uploaded File".
 
-        * Review the table to understand your data at a glance.
+    * Review the table to understand your data at a glance.
 
     B. **Basic Trend Analysis:**
 
-        * Upload a CSV with a "Date" column and a "Revenue" column.
+    * Upload a CSV with a "Date" column and a "Revenue" column.
 
-        * Specify "Date" as a datetime column and "Revenue" as numerical.
+    * Specify "Date" as a datetime column and "Revenue" as numerical.
 
-        * Click "Show Graphical Representation", then select "Line Chart".
+    * Click "Show Graphical Representation", then select "Line Chart".
 
-        * Choose "Date" for X-Axis and "Revenue" for Y-Axis to see how revenue changes over time.
+    * Choose "Date" for X-Axis and "Revenue" for Y-Axis to see how revenue changes over time.
 
     C. **Understanding Customer Demographics:**
 
-        * Upload a CSV with a "Customer_Segment" (categorical) and "Order_Count" (numerical) column.
+    * Upload a CSV with a "Customer_Segment" (categorical) and "Order_Count" (numerical) column.
 
-        * Specify column types accordingly.
+    * Specify column types accordingly.
 
-        * Select "Pie Chart", choose "Order_Count" for Values and "Customer_Segment" for Segments to see the proportion of orders from different customer groups.
+    * Select "Pie Chart", choose "Order_Count" for Values and "Customer_Segment" for Segments to see the proportion of orders from different customer groups.
 
 1. **Advanced Scenarios (For technical users)**
 
     A. **Comprehensive Data Cleaning Workflow:**
 
-        * Upload a messy CSV file.
+    * Upload a messy CSV file.
 
-        * Use "Specify Column Types" to correctly assign types, paying attention to warnings for `NaT` or non-numeric values.
+    * Use "Specify Column Types" to correctly assign types, paying attention to warnings for `NaT` or non-numeric values.
 
-        * Access "Handle Missing Values" expanders.
+    * Access "Handle Missing Values" expanders.
 
-        * For a column with few missing values, try "Fill with the Most Frequent Category" for categorical data or "Fill the Numerical Missing Values with Mean".
+    * For a column with few missing values, try "Fill with the Most Frequent Category" for categorical data or "Fill the Numerical Missing Values with Mean".
 
-        * For sparse numerical data, consider "Interpolate the Timedelta Values" (if applicable) or "Forward Fill the Missing Values" for time-series-like data.
+    * For sparse numerical data, consider "Interpolate the Timedelta Values" (if applicable) or "Forward Fill the Missing Values" for time-series-like data.
 
-        * Click "Missing Value Report" to confirm cleaning effectiveness.
+    * Click "Missing Value Report" to confirm cleaning effectiveness.
 
     B. **Analyzing Complex Durations:**
 
-        * If your CSV has a column like "Task_Duration" with values like "1d 2h 30m" or "45s", specify it as a timedelta column.
+    * If your CSV has a column like "Task_Duration" with values like "1d 2h 30m" or "45s", specify it as a timedelta column.
 
-        * Go to "Convert the Timedelta Units" section.
+    * Go to "Convert the Timedelta Units" section.
 
-        * Select "Task_Duration" and then "minutes" as the target unit.
+    * Select "Task_Duration" and then "minutes" as the target unit.
 
-        * A new column `Task_Duration_in_minutes` will appear, allowing for standardized numerical analysis of task durations. You can then plot this new column in histograms or scatter plots.
+    * A new column `Task_Duration_in_minutes` will appear, allowing for standardized numerical analysis of task durations. You can then plot this new column in histograms or scatter plots.
 
 
 
@@ -250,7 +252,7 @@ To ensure a welcoming and inclusive environment for all contributors and users, 
 
 If you encounter any issues, have questions, or need assistance, please utilize the following channels:
 
-* **GitHub Issues:** For bug reports, feature requests, or general questions, please open an issue on [GitHub Issues page]().
+* **GitHub Issues:** For bug reports, feature requests, or general questions, please open an issue on [GitHub Issues page](https://github.com/Asmit-cloud/CSV-Analyzer/issues).
 
 * **Direct Contact:** For more personal inquiries, you can reach out via email. (See **Contact Information** below).
 
