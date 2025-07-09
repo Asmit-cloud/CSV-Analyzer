@@ -119,7 +119,7 @@ Step 5: Access the application: Your default web browser will automatically open
 
 **Data Files for Testing and Analysis:**
 
-For demonstration and testing purposes, this project incorporates sample data files (TestFiles), namely organizations-100 and products-100. These datasets enable comprehensive evaluation of the application's capabilities and support further analytical exploration. The data was sourced from [GitHub](https://github.com/datablist/sample-csv-files.git).
+For demonstration and testing purposes, this project incorporates sample data files (TestFiles), namely `organizations-100` and `products-100`. These datasets enable comprehensive evaluation of the application's capabilities and support further analytical exploration. The data was sourced from [GitHub](https://github.com/datablist/sample-csv-files.git).
 
 This section demonstrates how to use the core features of the CSV Analyzer.
 
