@@ -273,6 +273,4 @@ This project is licensed under the MIT License. This means you are free to use, 
 
 ### Contact Information
 
-* For any further inquiries or support, please feel free to reach out via my [email](mailto:byte.100.tron@gmail.com).
-
-* You are also welcome to connect with me on [LinkedIn](https://www.linkedin.com/in/asmit-de-orbitingwithpython).
+For any further inquiries or support, please feel free to reach out via my [email](mailto:byte.100.tron@gmail.com).
